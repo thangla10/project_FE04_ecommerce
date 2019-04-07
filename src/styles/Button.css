@@ -1,4 +1,4 @@
-.cart-btn {
+.cart {
     text-transform: capitalize;
     font-size: 1.4rem;
     background: transparent;
@@ -11,12 +11,12 @@
     transition: all 0.5s ease-in-out;
 }
 
-.cart-btn:hover {
+.cart:hover {
     background: var(--green);
     color: var(--darkGreen);
 }
 
-.btp-btn {
+.continue {
     text-transform: capitalize;
     font-size: 1.4rem;
     background: transparent;
@@ -29,7 +29,7 @@
     transition: all 0.5s ease-in-out;
 }
 
-.btp-btn:hover {
+.continue:hover {
     background: var(--mainYellow);
     color: var(--lightYellow);
 }
