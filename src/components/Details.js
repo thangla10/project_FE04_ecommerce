@@ -26,9 +26,13 @@ class Details extends Component {
                                     <h3>Information about the product:</h3><p className="text-muted">{info}</p>
                                     <div>
                                         <Link to="/">
-                                            <button className="btp-btn">Back to Products</button>
+                                            <button className="btp-btn">Continue Shopping</button>
                                         </Link>
-                                        <button className="cart-btn">Add to Cart</button>
+                                        <button className="cart-btn" disabled={inCart?true:false} onClick={() =>{
+                                            value.addToCart(id);
+                                        }}>
+                                            {inCart ? 'inCart' : 'add to cart'}
+                                        </button>
                                     </div>
                                 </div>
                             </div>
