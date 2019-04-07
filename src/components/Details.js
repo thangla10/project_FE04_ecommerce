@@ -31,7 +31,7 @@ class Details extends Component {
                                         <button className="cart" disabled={inCart?true:false} onClick={() =>{
                                             value.addToCart(id);
                                         }}>
-                                            {inCart ? 'inCart' : 'add to cart'}
+                                            {inCart ? 'In Cart' : 'add to cart'}
                                         </button>
                                     </div>
                                 </div>
