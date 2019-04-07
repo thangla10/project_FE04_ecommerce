@@ -27,10 +27,10 @@ class Details extends Component {
                                     <div>
                                         <Link to="/">
                                             <button className="btp-btn">Back to Products</button>
-                                            <button className="cart-btn" disabled={inCart?true:false} onClick={() => {
-                                                value.addToCart(id);
-                                            }}>{inCart ? "inCart" : "Add to cart"}</button>
                                         </Link>
+                                        <button className="cart-btn" disabled={inCart?true:false} onClick={() => {
+                                            value.addToCart(id);
+                                            }}>{inCart ? "inCart" : "Add to cart"}</button>
                                     </div>
                                 </div>
                             </div>
