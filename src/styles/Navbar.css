@@ -1,0 +1,27 @@
+.container-1 {
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+}
+
+.container-1 input#search {
+    height: 35px;
+    background: #ffffff;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #63717f;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.container-1 .icon {
+    position: absolute;
+    top: 50%;
+    margin-left: 15px;
+    margin-top: 7px;
+    z-index: 1;
+    color: #4f5b66;
+}

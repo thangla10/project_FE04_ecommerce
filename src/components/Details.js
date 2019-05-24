@@ -25,7 +25,7 @@ class Details extends Component {
                                     <h3 className="font-weight-bold">Price: <span>$</span>{price}</h3>
                                     <h3>Information about the product:</h3><p className="text-muted">{info}</p>
                                     <div>
-                                        <Link to="/">
+                                        <Link to="/products">
                                             <button className="continue">Continue Shopping</button>
                                         </Link>
                                         <button className="cart" disabled={inCart?true:false} onClick={() =>{

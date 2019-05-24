@@ -96,16 +96,3 @@ export const storeProducts = [
       total: 0
     }
 ];
-  
-export const detailProduct = {
-    id: 1,
-    title: "Nike Phantom Venom",
-    img: "img/product-1.png",
-    price: 100,
-    company: "NIKE",
-    info:
-    "The Nike Phantom Venom is engineered for powerful, precise strikes that win games. Blades on the instep create spin to control the flight of the ball, while Flywire cables and a flexible HyperReactive plate provide the stability and traction needed to unleash at any moment.",
-    inCart: false,
-    count: 0,
-    total: 0
-};
